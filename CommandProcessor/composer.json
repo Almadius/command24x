@@ -1,0 +1,25 @@
+{
+    "name": "vendor/command-processor",
+    "description": "A PHP package for processing text commands",
+    "autoload": {
+        "psr-4": {
+            "CommandProcessor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seitzhan Madi"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
